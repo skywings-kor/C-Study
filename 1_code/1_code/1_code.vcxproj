@@ -141,7 +141,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1_print+scanf.c" />
+    <ClCompile Include="condition.c" />
     <ClCompile Include="loop.c" />
+    <ClCompile Include="random.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
