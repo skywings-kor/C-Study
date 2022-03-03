@@ -57,7 +57,7 @@ int main(void)
 
 	//do {  }  while (조건):
 	/*int i = 1;
-	do 
+	do
 	{
 		printf("Hello world %d \n", i++);
 	} while (i <= 10);*/
@@ -89,18 +89,52 @@ int main(void)
 
 
 	//별피라미드 만들기 (그 유명한..)
-	for (int i = 0; i < 5; i++)
+//	for (int i = 0; i < 5; i++)
+//	{
+//		for (int j = 0; j <= i; j++)
+//		{
+//			printf("*");
+//		}
+//		printf("\n");
+//	}
+//
+//	return 0;
+//}
+
+
+	/*for (int i = 0; i < 5; i++)
 	{
-		for (int j = 0; j <= i; j++)
+		for (int j = i; j < 5 - 1; j++)
+		{
+			printf("S");
+		}
+
+		for (int k = 0; k <= i; k++)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}*/
+
+	//피라미드를 쌓아라->프로젝트
+	int floor;
+	printf("몇층으로 쌓냐=> ");
+	scanf_s("%d", &floor);
+
+	int i, j,k;
+
+	for (i = 0; i < floor; i++)
+	{
+		for (j = i; j < floor - 1; j++)
+		{
+			printf(" ");
+		}
+
+		for (k = 0; k < i * 2 + 1; k++)
 		{
 			printf("*");
 		}
 		printf("\n");
 	}
-
-
-
-
-
 	return 0;
 }
