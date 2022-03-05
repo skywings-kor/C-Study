@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1_print+scanf.c" />
+    <ClCompile Include="array.c" />
     <ClCompile Include="condition.c" />
     <ClCompile Include="function.c" />
     <ClCompile Include="function_project.c" />
