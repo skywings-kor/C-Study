@@ -42,5 +42,8 @@
     <ClCompile Include="pointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="korea_university_linkedlist.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

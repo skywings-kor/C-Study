@@ -146,6 +146,7 @@
     <ClCompile Include="condition.c" />
     <ClCompile Include="function.c" />
     <ClCompile Include="function_project.c" />
+    <ClCompile Include="korea_university_linkedlist.c" />
     <ClCompile Include="loop.c" />
     <ClCompile Include="pointer.c" />
     <ClCompile Include="random.c" />
