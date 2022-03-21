@@ -5,7 +5,7 @@
 //
 //struct NODE
 //{
-//	int ID;
+//	char ID;
 //	int value;
 //	struct NODE* next;		//새로 정해서 만든거기 때문에 struct를 쓰는 것이다
 //
@@ -55,9 +55,9 @@
 //
 //void II_input()
 //{
-//	int in_ID, in_value;
+//	char in_ID[20], in_value;
 //	printf("\t ID, value: ");
-//	scanf_s("%d %d", &in_ID, &in_value);
+//	scanf_s("%c %d", &in_ID, &in_value);
 //	ptr = (struct NODE*)malloc(sizeof(struct NODE));
 //
 //	if (head == NULL)
@@ -84,7 +84,7 @@
 //	printf("ID, Values: ");
 //	while (ptr != NULL)
 //	{
-//		printf("%d , %d \n", ptr->ID, ptr->value);
+//		printf("%s , %d \n", ptr->ID, ptr->value);
 //		ptr = ptr->next;
 //	}
 //	printf("\n");
