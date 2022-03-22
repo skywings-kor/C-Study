@@ -148,6 +148,7 @@
     <ClCompile Include="function_project.c" />
     <ClCompile Include="korea_university_linkedlist.c" />
     <ClCompile Include="linkedlist0321.c" />
+    <ClCompile Include="linkedlist0323.c" />
     <ClCompile Include="loop.c" />
     <ClCompile Include="m_array.c" />
     <ClCompile Include="m_array_project.c" />
